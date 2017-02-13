@@ -1,15 +1,14 @@
 # Unasukecop
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/unasukecop`. To experiment with that code, run `bin/console` for an interactive prompt.
+UnasukeCop is a RuboCop configration gem inspired by [OnkCop](https://github.com/onk/onkcop).
 
-TODO: Delete this and the text above, and describe your gem
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'unasukecop'
+gem 'unasukecop', require: false, group: :test
 ```
 
 And then execute:
@@ -22,7 +21,14 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Add `inherit_gem:` setting to your `.rubocop.yml`
+
+```yaml
+inherit_gem:
+  unasukecop:
+    - "config/rubocop.yml"
+    # - "config/rails.yml"
+```
 
 ## Development
 
@@ -32,7 +38,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/Yusuke Nakamura/unasukecop.
+Bug reports and pull requests are welcome on GitHub at https://github.com/unasuke/unasukecop.
 
 
 ## License
