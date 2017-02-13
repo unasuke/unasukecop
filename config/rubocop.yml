@@ -30,7 +30,7 @@ Style/EmptyMethod:
 
 # I like sprintf than format
 Style/FormatString:
-  EnforcedStyle: sprint
+  EnforcedStyle: sprintf
 
 # not to use hash rockets
 # but unification is more important
