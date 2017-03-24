@@ -74,8 +74,8 @@ Style/TernaryParentheses:
 
 # I use trailing comma
 Style/TrailingCommaInArguments:
-  EnforcedStyle: consistent_comma
+  EnforcedStyleForMultiline: consistent_comma
 
 # same as reason of Style/TrailingCommaInArguments
 Style/TrailingCommaInLiteral:
-  EnforcedStyle: consistent_comma
+  EnforcedStyleForMultiline: consistent_comma
