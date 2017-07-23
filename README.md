@@ -1,4 +1,5 @@
 # Unasukecop
+[![Build Status](https://travis-ci.org/unasuke/unasukecop.svg?branch=master)](https://travis-ci.org/unasuke/unasukecop)
 
 UnasukeCop is a RuboCop configration gem inspired by [OnkCop](https://github.com/onk/onkcop).
 

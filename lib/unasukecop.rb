@@ -1,4 +1,4 @@
-require "unasukecop/version"
+require 'unasukecop/version'
 
 module Unasukecop
   # Your code goes here...
