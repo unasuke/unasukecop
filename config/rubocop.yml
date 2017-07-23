@@ -19,11 +19,6 @@ Metrics/MethodLength:
 
 ## Style
 
-# when copy-and-past to REPL, trailing dot is more safety
-# inherit from onkcop
-Style/DotPosition:
-  EnforcedStyle: trailing
-
 # just a preference
 Style/EmptyMethod:
   EnforcedStyle: expanded
@@ -36,15 +31,6 @@ Style/FormatString:
 # but unification is more important
 Style/HashSyntax:
   EnforcedStyle: ruby19_no_mixed_keys
-
-# more short line length and compact diff when change method name
-# inherit from onkcop
-Style/IndentArray:
-  EnforcedStyle: consistent
-
-# same as reason of Style/IndentArray
-Style/IndentHash:
-  EnforcedStyle: consistent
 
 # just a preference
 Style/InlineComment:
@@ -79,3 +65,19 @@ Style/TrailingCommaInArguments:
 # same as reason of Style/TrailingCommaInArguments
 Style/TrailingCommaInLiteral:
   EnforcedStyleForMultiline: consistent_comma
+
+## Layout
+
+# when copy-and-past to REPL, trailing dot is more safety
+# inherit from onkcop
+Layout/DotPosition:
+  EnforcedStyle: trailing
+
+# more short line length and compact diff when change method name
+# inherit from onkcop
+Layout/IndentArray:
+  EnforcedStyle: consistent
+
+# same as reason of Style/IndentArray
+Layout/IndentHash:
+  EnforcedStyle: consistent
