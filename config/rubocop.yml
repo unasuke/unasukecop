@@ -1,12 +1,6 @@
 AllCops:
   DisplayCopNames: true
 
-## Lint
-
-# just a preference
-Lint/BlockAlignment:
-  EnforcedStyleAlignWith: start_of_block
-
 ## Metrics
 
 # inherit from onkcop
@@ -63,10 +57,17 @@ Style/TrailingCommaInArguments:
   EnforcedStyleForMultiline: consistent_comma
 
 # same as reason of Style/TrailingCommaInArguments
-Style/TrailingCommaInLiteral:
+Style/TrailingCommaInArrayLiteral:
   EnforcedStyleForMultiline: consistent_comma
 
+Style/TrailingCommaInHashLiteral:
+  EnforcedStyleForMultiline: comma
+
 ## Layout
+
+# just a preference
+Layout/BlockAlignment:
+  EnforcedStyleAlignWith: start_of_block
 
 # when copy-and-past to REPL, trailing dot is more safety
 # inherit from onkcop
