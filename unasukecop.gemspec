@@ -10,8 +10,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Yusuke Nakamura']
   spec.email         = ['yusuke1994525@gmail.com']
 
-  spec.summary       = 'unasukeCop is a RuboCop configration gem.'
-  spec.description   = 'unasukeCop is a RuboCop configration gem that optimisation to unasuke.'
+  spec.summary       = 'UnasukeCop is a RuboCop configration gem.'
+  spec.description   = 'UnasukeCop is a RuboCop configration gem that optimisation to unasuke.'
   spec.homepage      = 'https://github.com/unasuke/unasukecop'
   spec.license       = 'MIT'
 
