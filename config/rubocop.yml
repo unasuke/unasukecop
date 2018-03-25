@@ -63,8 +63,11 @@ Style/TrailingCommaInArguments:
   EnforcedStyleForMultiline: consistent_comma
 
 # same as reason of Style/TrailingCommaInArguments
-Style/TrailingCommaInLiteral:
+Style/TrailingCommaInArrayLiteral:
   EnforcedStyleForMultiline: consistent_comma
+
+Style/TrailingCommaInHashLiteral:
+  EnforcedStyleForMultiline: comma
 
 ## Layout
 
