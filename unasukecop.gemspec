@@ -1,4 +1,3 @@
-# coding: utf-8
 # rubocop:disable Style/ExpandPathArguments
 
 lib = File.expand_path('../lib', __FILE__)
