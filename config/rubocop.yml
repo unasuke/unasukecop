@@ -76,9 +76,9 @@ Layout/DotPosition:
 
 # more short line length and compact diff when change method name
 # inherit from onkcop
-Layout/IndentArray:
+Layout/IndentFirstArrayElement:
   EnforcedStyle: consistent
 
 # same as reason of Style/IndentArray
-Layout/IndentHash:
+Layout/IndentFirstHashElement:
   EnforcedStyle: consistent
