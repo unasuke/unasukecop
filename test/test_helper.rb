@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # rubocop:disable Style/ExpandPathArguments
 
 $LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
